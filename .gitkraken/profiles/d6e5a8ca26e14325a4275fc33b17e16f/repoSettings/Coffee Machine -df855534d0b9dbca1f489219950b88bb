@@ -1,0 +1,125 @@
+{
+  "pullRequests": {
+    "filters": [
+      {
+        "id": "4cea592e-a217-4f1f-8795-ad24db67c7c8",
+        "filter": "author:Dedzed101",
+        "name": "My Pull Requests",
+        "author": [
+          {
+            "not": false,
+            "values": [
+              "Dedzed101"
+            ]
+          }
+        ],
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e16c2019-0b7f-4a7e-ad2b-408ddd95eca8",
+        "filter": "assignee:Dedzed101",
+        "name": "Assigned To Me",
+        "assignee": [
+          {
+            "not": false,
+            "values": [
+              "Dedzed101"
+            ]
+          }
+        ],
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "55b5fcbf-c83c-43d5-914f-72154ad086b4",
+        "filter": "review-requested:Dedzed101",
+        "name": "Awaiting My Review",
+        "review-requested": [
+          {
+            "not": false,
+            "values": [
+              "Dedzed101"
+            ]
+          }
+        ],
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "00e47eb7-83a9-49f8-a153-1ec57f5f78c5",
+        "filter": "",
+        "name": "All Pull Requests",
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "teams": {
+    "hasFinishedSettingUpTeams": true
+  },
+  "remoteParents": {
+    "github": {
+      "Dedzed101": {
+        "Coffee-Machine": {
+          "hostingServiceType": "github",
+          "owner": "Dedzed101",
+          "name": "Coffee-Machine"
+        }
+      }
+    }
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "origin": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "01a9ab878ed178384986dd46bbba64d3808d2f85",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/master"
+      },
+      "refs/heads/main": {
+        "name": "refs/heads/main",
+        "oid": "8203b6e8bd840f031b265815353282701bd8740e",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/master": {
+        "name": "refs/heads/master",
+        "oid": "01a9ab878ed178384986dd46bbba64d3808d2f85",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    }
+  }
+}

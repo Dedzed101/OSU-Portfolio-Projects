@@ -1,0 +1,5 @@
+[2022-01-09T18:21:40.180Z] Fetch remote origin: error sending data: Broken pipe
+[2022-01-11T14:33:01.948Z] Fetch remote origin: SecureTransport error: connection closed via error
+[2022-01-11T15:39:05.930Z] Fetch remote origin: unexpected return value from ssl handshake -9806
+[2022-01-11T15:45:41.511Z] Fetch remote origin: SecureTransport error: connection closed via error
+[2022-01-11T15:47:23.853Z] Fetch remote origin: unexpected EOF

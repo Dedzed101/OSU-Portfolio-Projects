@@ -1,0 +1,48 @@
+{
+  "tabInfo": {
+    "permanentTabs": {
+      "PROJECTS": {
+        "selectedProject": null,
+        "closed": false
+      }
+    },
+    "selectedTabId": "af216c92-10be-4078-8e2f-08ffdb9cd7e5",
+    "tabs": [
+      {
+        "id": "9974f240-66d2-4433-a1ae-ac733f4644d3",
+        "type": "CLI",
+        "cwd": "/Users/danielbracamontes",
+        "title": "/danielbracamontes",
+        "graphPanelVisibilityMode": "AUTO",
+        "sidePanel": {
+          "height": 510,
+          "width": 706
+        }
+      },
+      {
+        "id": "b53b7e85-74d2-4992-a000-f51aa26c606b",
+        "type": "RELEASE_NOTES"
+      },
+      {
+        "id": "af216c92-10be-4078-8e2f-08ffdb9cd7e5",
+        "type": "NEW"
+      }
+    ]
+  },
+  "profileIcon": "Dia-de-los-Muertos-Keif.png",
+  "profileName": "Dedzed101",
+  "userEmail": "59780347+Dedzed101@users.noreply.github.com",
+  "userName": "Daniel Bracamontes",
+  "gpg": {
+    "commitGpgSign": false,
+    "tagForceSignAnnotated": false
+  },
+  "editor": {
+    "fontFamily": "Monaco"
+  },
+  "cli": {
+    "fontFamily": "Monaco"
+  },
+  "projects": {},
+  "organizationId": null
+}
