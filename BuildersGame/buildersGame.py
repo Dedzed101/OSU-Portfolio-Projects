@@ -8,8 +8,12 @@ class BuildersGame():
     '''
 
     def __init__(self):
-        self._board = [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [
-            0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
+        self._board = [[0, 0, 0, 0, 0],
+                       [0, 0, 0, 0, 0],
+                       [0, 0, 0, 0, 0],
+                       [0, 0, 0, 0, 0],
+                       [0, 0, 0, 0, 0]]
+
         self._current_state = "UNFINISHED"
         self._turn = 'x'
         self._xb1 = 0
@@ -170,40 +174,39 @@ class BuildersGame():
 
 
 # Testing
-'''       
+
 game = BuildersGame()
-game.initial_placement(2,2,1,2,'x')
-game.initial_placement(0,1,4,2,'o')
+game.initial_placement(2, 2, 1, 2, 'x')
+game.initial_placement(0, 1, 4, 2, 'o')
 
-game.make_move(2,2,1,1,1,0) #x
-game.make_move(0,1,1,0,2,0) #o
+# game.make_move(2,2,1,1,1,0) #x
+# game.make_move(0,1,1,0,2,0) #o
 
-game.make_move(1,2,2,0,3,0) #x
-game.make_move(1,0,0,1,0,0) #o
+# game.make_move(1,2,2,0,3,0) #x
+# game.make_move(1,0,0,1,0,0) #o
 
-game.make_move(2,0,1,0,0,0) #x
-game.make_move(4,2,4,3,3,3) #o
+# game.make_move(2,0,1,0,0,0) #x
+# game.make_move(4,2,4,3,3,3) #o
 
-game.make_move(1,0,2,0,2,1) #x
-game.make_move(4,3,3,3,3,2) #o
+# game.make_move(1,0,2,0,2,1) #x
+# game.make_move(4,3,3,3,3,2) #o
 
-game.make_move(2,0,2,1,1,0) #x
-game.make_move(3,3,3,2,2,3) #o
+# game.make_move(2,0,2,1,1,0) #x
+# game.make_move(3,3,3,2,2,3) #o
 
-game.make_move(2,1,1,1,2,0) #x
-game.make_move(3,2,3,3,3,4) #o
+# game.make_move(2,1,1,1,2,0) #x
+# game.make_move(3,2,3,3,3,4) #o
 
-game.make_move(1,1,2,0,3,0) #x
-game.make_move(3,3,2,2,2,3) #o
+# game.make_move(1,1,2,0,3,0) #x
+# game.make_move(3,3,2,2,2,3) #o
 
-game.make_move(2,0,1,0,0,0) #x
-game.make_move(2,2,3,1,4,1) #o
+# game.make_move(2,0,1,0,0,0) #x
+# game.make_move(2,2,3,1,4,1) #o
 
-game.make_move(1,0,0,0,1,1)
-game.make_move(1,0,2,0,1,1)
+# game.make_move(1,0,0,0,1,1)
+# game.make_move(1,0,2,0,1,1)
 
-b = game.get_current_state()
-a = game.print_board()
-print(b)
-#print(b)
-'''
+# b = game.get_current_state()
+# a = game.print_board()
+# print(b)
+# #print(b)
