@@ -40,7 +40,7 @@
 
 class JanggiGame:
     """
-    Initializes game elements, like board, game_stae, player_turn, and if either player is in check. 
+    Initializes game elements, like board, game_state, player_turn, and if either player is in check. 
     make_move function manages game playability and determines move validity.
     """
 
